@@ -1,0 +1,122 @@
+html {
+    font-size: 0.625em;
+}
+body{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", 'Roboto',arial,sans-serif;
+    color: #333;
+}
+header{
+    box-shadow: 0px 3px 4px #d8d8d8;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+.header{
+    padding: 15px 0 15px;
+    margin: 0 auto;
+    max-width: 890px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header p{
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 2.4rem;
+    color: #3C71FF;
+}
+/* main */
+.contents{
+    margin: 30px auto 0;
+    width: 90%;
+    max-width: 760px;
+}
+.contents h2{
+    font-size: 2.6rem;
+}
+.contens_main{
+    margin-top: 15px;
+}
+.main_post{
+    box-shadow: 0px 0px 4px #cecece;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all .5s;
+}
+.main_post:hover{
+    box-shadow: 0px 0px 10px #cecece;
+    background-color: #ececec;
+}
+.main_post h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+.main_post ul{
+    margin-top: 15px;
+}
+.main_post li{
+    font-size: 1.6rem;
+}
+.main_post p{
+    font-size: 1.6rem;
+}
+/* post */
+.post_contents{
+    width: 90%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+.post_data{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 70px 0 80px;
+}
+.post_contents h2{
+    font-size: 2.6rem;
+    font-weight: normal;
+    text-align: center;
+}
+.post_contents_text h1{
+    color: #333;
+    text-align: left;
+    font-size: 2.4rem;
+    font-weight: normal;
+    padding-left: 20px;
+    margin-bottom: 35px;
+    border-left: solid 5px #3C71FF;
+}
+.post_contents_text h2{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.post_contents_text h3{
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.post_contents_text p{
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+
+}
+.post_contents_text li{
+    list-style: square;
+    margin-left: 15px;
+    font-size: 1.6rem;
+}
+.post_contents_text pre{
+    font-size: 1.6rem;
+    white-space: pre-wrap;
+    background-color: #F4F4F4;
+    padding: 20px 0 20px 20px;
+    margin-bottom: 35px;
+}
