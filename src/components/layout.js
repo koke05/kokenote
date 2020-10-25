@@ -31,6 +31,9 @@ return (
     <main>
         {children}
     </main>
+    <footer>
+    <small>©&nbsp;2020&nbsp;kokenote</small>
+    </footer>
     </div>
 )
 }
