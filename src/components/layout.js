@@ -1,5 +1,6 @@
 import React from "react"
 import { useStaticQuery, Link, graphql } from "gatsby"
+import Head from "./head"
 
 export default function Layout({ children }) {
 const data = useStaticQuery(
@@ -16,6 +17,7 @@ const data = useStaticQuery(
 )
 return (
     <div>
+    <Head/>
     <header>
         <div className="header">
             <Link to={`/`}>
