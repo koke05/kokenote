@@ -54,6 +54,7 @@ category: three.js
 
 ## 平行光源
 平行光源はTHREE.DirectionalLightクラスを使用する
+
     let directionalLight = new THREE.DirectionalLight(0xFFFFFF);
     directionalLight.position.set(1, 1, 1);
     // シーンに追加
@@ -61,6 +62,7 @@ category: three.js
 
 ## 環境光源
 環境光源はTHREE.AmbientLightクラスを使用する
+
     let AmbientLight = new THREE.AmbientLight(0x999999);
     // シーンに追加
     scene.add(AmbientLight);
@@ -70,6 +72,7 @@ category: three.js
 
 ## 球体
 THREE.SphereGeometryクラスを使用する
+
     let geometry = new THREE.SphereGeometry( 300, 30, 30 );
     let material = new THREE.MeshStandardMaterial( {color: 0xFF0000} );
     let sphere = new THREE.Mesh( geometry, material );
@@ -77,27 +80,31 @@ THREE.SphereGeometryクラスを使用する
 
 ## 立方体
 THREE.BoxGeometryクラスを使用する
+
     let geometry = new THREE.BoxGeometry( 300, 30, 30 );
     let material = new THREE.MeshStandardMaterial( {color: 0xFF0000} );
     let sphere = new THREE.Mesh( geometry, material );
     scene.add( sphere );
 
 ## 平面体
-    THREE.PlaneGeometryクラスを使用する
+THREE.PlaneGeometryクラスを使用する
+
     let geometry = new THREE.PlaneGeometry( 300, 30, 30 );
     let material = new THREE.MeshStandardMaterial( {color: 0xFF0000} );
     let sphere = new THREE.Mesh( geometry, material );
     scene.add( sphere );
 
 ## 円柱
-    THREE.ConeGeometryクラスを使用する
+THREE.ConeGeometryクラスを使用する
+
     let geometry = new THREE.ConeGeometry(200,500,8);
     let material = new THREE.MeshStandardMaterial( {color: 0xFF0000} );
     let sphere = new THREE.Mesh( geometry, material );
     scene.add( sphere );
 
 ## ドーナツ型
-    THREE.CylinderGeometryクラスを使用する
+THREE.CylinderGeometryクラスを使用する
+
     let geometry = new THREE.CylinderGeometry(200,200,500,100);
     let material = new THREE.MeshStandardMaterial( {color: 0xFF0000} );
     let sphere = new THREE.Mesh( geometry, material );
