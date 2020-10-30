@@ -109,3 +109,13 @@ THREE.CylinderGeometryクラスを使用する
     let material = new THREE.MeshStandardMaterial( {color: 0xFF0000} );
     let sphere = new THREE.Mesh( geometry, material );
     scene.add( sphere );
+
+# レンダラーの背景色の設定
+
+    renderer.setClearColor(new THREE.Color(0xEEEEEE));
+
+# OrbitControls
+
+    let controls = new THREE.OrbitControls(camera,renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.2;
